@@ -17,7 +17,7 @@ const ChatInterface = () => {
   useEffect(() => {
     const fetchHistory = async () => {
       try {
-        const response = await fetch("http://localhost:5000/history");
+        const response = await fetch("https://chatbot-wn6a.onrender.com/history");
         const data = await response.json();
 
         const history = data.history.map((message, index) => ({
@@ -52,7 +52,7 @@ const ChatInterface = () => {
     setInputMessage("");
 
     try {
-      const response = await fetch("http://localhost:5000/chat", {
+      const response = await fetch("https://chatbot-wn6a.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
