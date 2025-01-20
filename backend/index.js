@@ -12,5 +12,5 @@ app.use('/',router);
 
 const port = process.env.PORT;
 app.listen(port,()=>{
-    console.log(`server start at on http://localhost: ${PORT}`);
+    console.log(`server start at on http://localhost: ${port}`);
 })
