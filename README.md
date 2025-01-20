@@ -25,6 +25,11 @@ This project is a fully responsive chatbot application that allows users to inte
 
 ---
 
+## 🔮 Future Enhancements
+Real-Time WebSocket Integration: For live user assistance and real-time updates.
+Advanced AI Features: Improved response system using AI/ML models.
+User Authentication: Secure login and personalized user experiences
+
 ## 📦 Predefined Text Examples
 
 Here are some sample inputs you can try with the chatbot:
@@ -39,3 +44,8 @@ const insertData = [
     ['Good morning', 'Good morning! Hope you have a fantastic day ahead!'],
     ['Good night', 'Good night! Sweet dreams!'],
 ];
+---
+
+
+
+
